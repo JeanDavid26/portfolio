@@ -9,7 +9,7 @@
 </head>
 <body class="bg-gray-900 text-gray-200">
     <div class="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-gray-300 font-sans">
-        <header class="bg-gray-800 shadow-md">
+        <header class="bg-gray-800 shadow-md sticky top-0 z-50">
             <div class="container mx-auto px-6 py-4 flex flex-col sm:flex-row justify-between items-center">
                 <div class="flex items-center space-x-4">
                     <img src="./assets/profile.jpeg" alt="Jean-David Duvernay" class="w-16 h-16 rounded-full object-cover">
@@ -20,18 +20,24 @@
                     </div>
                 </div>
                 
-                <div class="flex space-x-4 mt-4 sm:mt-0">
-                    <a href="https://github.com/JeanDavid26" target="_blank" class="hover:text-gray-400">
-                        <svg class="w-6 h-6 fill-current text-gray-400 hover:text-gray-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.724-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.757-1.333-1.757-1.089-.744.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.467-2.38 1.236-3.22-.123-.303-.536-1.524.117-3.176 0 0 1.008-.322 3.3 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.24 2.874.117 3.176.77.84 1.235 1.91 1.235 3.22 0 4.61-2.803 5.625-5.473 5.92.43.372.814 1.103.814 2.222v3.293c0 .322.218.694.825.576 4.765-1.59 8.199-6.084 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                        </svg>
-                    </a>
-                    <a href="https://www.linkedin.com/in/jean-david-duvernay/" target="_blank" class="hover:text-gray-400">
-                        <svg class="w-6 h-6 fill-current text-gray-400 hover:text-gray-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11.75 20h-3v-11h3v11zm-1.5-12.3c-.967 0-1.75-.785-1.75-1.75s.783-1.75 1.75-1.75 1.75.785 1.75 1.75-.783 1.75-1.75 1.75zm13.25 12.3h-3v-5.603c0-1.337-.026-3.065-1.867-3.065-1.867 0-2.153 1.459-2.153 2.963v5.705h-3v-11h2.884v1.503h.041c.402-.76 1.381-1.562 2.844-1.562 3.043 0 3.607 2.003 3.607 4.605v6.454z"/>
-                        </svg>
-                    </a>
+                <div>
+                    <div class="flex space-x-4 mt-4 sm:mt-0">
+                        <a href="https://github.com/JeanDavid26" target="_blank" class="hover:text-gray-400">
+                            <svg class="w-6 h-6 fill-current text-gray-400 hover:text-gray-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.724-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.757-1.333-1.757-1.089-.744.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.467-2.38 1.236-3.22-.123-.303-.536-1.524.117-3.176 0 0 1.008-.322 3.3 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.24 2.874.117 3.176.77.84 1.235 1.91 1.235 3.22 0 4.61-2.803 5.625-5.473 5.92.43.372.814 1.103.814 2.222v3.293c0 .322.218.694.825.576 4.765-1.59 8.199-6.084 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jean-david-duvernay/" target="_blank" class="hover:text-gray-400">
+                            <svg class="w-6 h-6 fill-current text-gray-400 hover:text-gray-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11.75 20h-3v-11h3v11zm-1.5-12.3c-.967 0-1.75-.785-1.75-1.75s.783-1.75 1.75-1.75 1.75.785 1.75 1.75-.783 1.75-1.75 1.75zm13.25 12.3h-3v-5.603c0-1.337-.026-3.065-1.867-3.065-1.867 0-2.153 1.459-2.153 2.963v5.705h-3v-11h2.884v1.503h.041c.402-.76 1.381-1.562 2.844-1.562 3.043 0 3.607 2.003 3.607 4.605v6.454z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="mt-2">
+                        <p class="text-lg sm:text-sm text-gray-300">duvernayjeandavid@gmail.com</p>
+                    </div>
                 </div>
+                
             </div>
         </header>
         
@@ -44,7 +50,7 @@
                 <p class="text-lg mt-4">
                     Mon approche : transformer des idées en systèmes robustes et évolutifs tout en résolvant des problématiques complexes avec clarté et efficacité. Toujours en quête de nouveaux défis, je mets mes compétences au service de projets qui ont du sens.
                 </p>
-                <p class="text-lg mt-4">Besoin de concrétiser une idée ? Contactez-moi.
+                <p class="text-lg mt-4">Besoin de concrétiser une idée ? <a href="mailto:duvernayjeandavid@gmail.com">Contactez-moi</a> .
             </section>
 
             <section class="mb-12">
@@ -190,7 +196,15 @@
             
                 <!-- Projet EasyInventory -->
                 <div class="mb-6 p-6 bg-gray-800 rounded-lg shadow-lg border border-gray-700">
-                    <h3 class="text-lg font-bold text-gray-100">EasyInventory</h3>
+                    <div class="flex flex-row gap-4 mb-2">
+                        <h3 class="text-lg font-bold text-gray-100">EasyInventory</h3>
+                        <a href="https://github.com/JeanDavid26/easy-inventory" target="_blank" class="hover:text-gray-400">
+                            <svg class="w-6 h-6 fill-current text-gray-400 hover:text-gray-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.724-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.757-1.333-1.757-1.089-.744.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.467-2.38 1.236-3.22-.123-.303-.536-1.524.117-3.176 0 0 1.008-.322 3.3 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.24 2.874.117 3.176.77.84 1.235 1.91 1.235 3.22 0 4.61-2.803 5.625-5.473 5.92.43.372.814 1.103.814 2.222v3.293c0 .322.218.694.825.576 4.765-1.59 8.199-6.084 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    
                     <p class="text-sm text-gray-400 mb-4">Application de gestion des stocks et des ventes pour les petites associations.</p>
                     <p class="text-gray-300 mb-4">EasyInventory permet aux petites associations de gérer efficacement leurs stocks et ventes. L'application offre une interface simple, facilitant la gestion des inventaires et le suivi des transactions au quotidien.</p>
                     <div class="flex flex-wrap gap-4">
@@ -219,8 +233,8 @@
             
                 <!-- Projet Gestaloc -->
                 <div class="mb-6 p-6 bg-gray-800 rounded-lg shadow-lg border border-gray-700">
-                    <div class="flex flex-row items-center gap">
-                        <h3 class="text-lg font-bold text-gray-100">Gestaloc</h3>
+                    <div class="flex flex-row gap-1">
+                        <h3 class="text-lg font-bold text-gray-100 mb-2">Gestaloc</h3>
                         <a href="https://gestaloc.fr" target="_blank" rel="noopener noreferrer">
                             <img src="./assets/new-tab.svg" class="w-6 h-6 ml-2" alt="Site Gestaloc">
                         </a>
@@ -248,7 +262,7 @@
 
         <footer class="bg-gray-900 text-gray-300 py-6">
             <div class="container mx-auto px-6 flex flex-col sm:flex-row justify-between items-center">
-                <p>&copy; 2023 Jean-David. Tous droits réservés.</p>
+                <p>&copy; 2024 Jean-David Duvernay. Tous droits réservés.</p>
                 <div class="flex space-x-4 mt-4 sm:mt-0">
                     <a href="#" class="hover:text-gray-500">
                         <GithubIcon class="h-6 w-6" />
